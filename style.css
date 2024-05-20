@@ -41,8 +41,7 @@ button{
 }
 
 button:hover{
-    background-color: rgb(224, 97, 171);
-}
+    background-color:  hsl(235, 27%, 48%);}
 
 #result{
     font-size: 1.75rem;
