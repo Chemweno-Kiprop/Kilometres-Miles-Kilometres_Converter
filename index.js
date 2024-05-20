@@ -11,7 +11,7 @@ function convert() {
     if (toMiles.checked) {    
         dist = Number(textBox.value);  
         dist = dist * 5 / 8;  // Convert kilometres to miles
-        result.textContent = dist.toFixed(1) + " Miles";  
+        result.textContent = dist.toFixed(2) + " Miles";  
 
     } else if (toKilometres.checked) {
         dist = Number(textBox.value); 
